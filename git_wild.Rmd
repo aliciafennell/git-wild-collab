@@ -46,7 +46,12 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ```
 
 ```{r break-it-2}
+# Hi Alicia!
+# because nothing is complete without those Palmer penguins
+library(palmerpenguins)
 
+ggplot( data = penguins, aes(x=bill_depth_mm, y=bill_length_mm))+
+  geom_point()
 ```
 
 ## END Discussion 3
