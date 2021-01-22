@@ -35,13 +35,14 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
-# BREAK IT!
 
-ggplot(data = diamonds %>% filter(color=="E"), aes(x = depth, y = carat)) +
-  geom_point() +
-  theme_void()
+## BREAKING THINGS IS FUN SOMETIMES
 
-hi <- 10 - 10 + 10 - 10
+## wooohooooo, hi Carmen! 
+
+## :) 
+
+# it is ! :D
 ```
 
 ```{r break-it-2}
